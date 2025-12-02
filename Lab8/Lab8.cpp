@@ -2,6 +2,21 @@
 using namespace std;
 
 /*
+int main() {//zadanie 2.1 (strona 15)
+	int tab[10] = { 0 };
+	int* wsk;
+	wsk = &tab[0];
+	for (int i = 0; i < 10; i++) {
+		*wsk = 9;
+		cout << "Wartosc " << i + 1 << " elementu tablicy jest rowna: " << *wsk << endl;
+		wsk++;
+	}
+
+	return 0;
+}
+*/
+
+/*
 void swap(int* a, int* b);
 
 int main() {//zadanie 2.3 (strona 6)
