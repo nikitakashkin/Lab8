@@ -1,20 +1,47 @@
-// Lab8.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+
+
+
+	return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+/*
+int main() {//zadanie 2.1 , 2.2 (strona 5)
+	const int size = 3;
+	int tab[size] = {3,2,4};
+	int* tab_w[size];
+	int* ptr;
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+	ptr = &tab[0];
+
+	for(int i = 0; i < size; i++) {
+		tab_w[i] = &tab[i];
+		cout << i << " " << *tab_w[i] << endl;
+	}
+	for(int i = 0; i < size; i++) {
+		cout << i << " " << *ptr << endl;
+		ptr++;
+	}
+
+
+	return 0;
+}
+*/
+
+/*
+int main()//zadanie 1
+{
+	int x = 0;
+	int* wsk;
+
+	wsk = &x;
+
+	cin >> *wsk;
+	cout << "Wartosc x: " << *wsk << endl;
+
+	return 0;
+}
+*/
