@@ -2,6 +2,31 @@
 using namespace std;
 
 /*
+int main() {//zadanie 3
+	int n;
+	float* wsk;
+
+	cout << "Podaj rozmiar tablicy: ";
+	cin >> n;
+	float* tab = new float [n];
+
+	for (int i = 0; i < n; i++) {
+		tab[i] = i;
+	}
+	wsk = &tab[n-1];
+	while (1) {
+		if (*wsk == 0) {
+			break;
+		}
+		cout << "Wartosc " << *wsk << " elementu tablicy jest rowna: " << *wsk << endl;
+		wsk--;
+	}
+
+	return 0;
+}
+*/
+
+/*
 int main() {//zadanie 2.1 (strona 15)
 	int tab[10] = { 0 };
 	int* wsk;
